@@ -1,0 +1,202 @@
+:root {
+    --navi-blue-color: #2e2f42;
+    --cloud-color: #F4F4FD;
+    --iris-color: #4D5AE5;
+    --slate-color: #434455;
+
+    --ocean-color: #404bbf;
+    --green-color: #31d0aa;
+    --slate-color: #434455;
+    --light-slate-color: #8e8f99;
+    --cornflower-color: #e7e9fc;
+    --navy-blue-modal: #2e2f42;
+    --grey-color: #2e2f42;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.header-logo {
+    color: var(--navi-blue-color);
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.nav-list .link {
+    color: var(--navi-blue-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list .current {
+    color: #404BBF;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+    color: #404BBF;
+}
+
+.address .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Прибираємо маркери */
+.list {
+    list-style: none;
+}
+
+/* Прибираємо підкреслення */
+.link {
+    text-decoration: none;
+}
+
+/* Робимо адресу прямим нормальним шрифтом */
+.address {
+    font-style: normal;
+}
+
+.hero-section {
+    background: var(--navi-blue-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 32px;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404BBF;
+}
+
+.feature-title,
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navi-blue-color);
+    letter-spacing: 0.02em;
+}
+
+.feature-text,
+.team-text {
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navi-blue-color);
+}
+
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    width: 264px;
+    height: 380px;
+}
+
+.footer {
+    background: var(--navi-blue-color);
+}
+
+.footer-text {
+    color: #E7E9FC;
+}
+
+/* portfolio */
+.filter-button {
+    padding: 12px 24px;
+    background: var(--cloud-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);
+    border: none;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+
+.card-item {
+    border: 1px solid #E7E9FC;
+    width: 360px;
+    height: 420px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navi-blue-color);
+}
+
+.card-text {
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
