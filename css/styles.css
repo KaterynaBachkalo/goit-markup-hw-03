@@ -100,6 +100,7 @@ img {
     text-decoration: none;
 
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .page-header {
@@ -112,6 +113,7 @@ img {
 .page-header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-header {
@@ -222,7 +224,6 @@ img {
 .feature-list {
     display: flex;
     gap: var(--gap-between-column);
-    padding: 120px 0;
 }
 
 .feature-item {
@@ -234,13 +235,17 @@ img {
     margin-bottom: 8px;
 }
 
+.section {
+    padding: 120px 0;
+}
+
 /**
   |============================
   | What are we doing
   |============================
 */
-.gallery {
-    padding-bottom: 120px;
+.gallery-section {
+    padding-top: 0;
 }
 
 .gallery-item img {
@@ -402,7 +407,7 @@ img {
 }
 
 .card-section {
-    padding: 96px 0 120px;
+    padding: 96px 0 120px 0;
 }
 
 .card-item {
