@@ -13,8 +13,6 @@
     --navy-blue-modal: #2e2f42;
     --grey-color: #2e2f42;
 
-    --card-list-raw-gap: 24px;
-    --card-list-column-gap: 48px;
     --gap-between-column: 24px;
 }
 
@@ -233,7 +231,7 @@ img {
 }
 
 .feature-item {
-    width: calc((100% - 3*var(--card-list-left-gap))/4);
+    width: calc((100% - 3*24px)/4);
 
 }
 
@@ -362,7 +360,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--iris-color);
-    border: none;
     cursor: pointer;
 }
 
@@ -389,7 +386,7 @@ img {
     border-right: 1px solid var(--cornflower-color);
     border-bottom: 1px solid var(--cornflower-color);
     border-left: 1px solid var(--cornflower-color);
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
 }
 
 .card-title {
