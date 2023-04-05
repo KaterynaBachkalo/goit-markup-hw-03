@@ -129,16 +129,13 @@ img {
     gap: 40px;
 }
 
-.nav-list li {
-    padding: 24px 0;
-}
-
 .nav-list .link {
     color: var(--navi-blue-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-list .current {
@@ -158,15 +155,11 @@ img {
     align-items: center;
 }
 
-.address-list li {
-    padding: 24px 0;
-}
-
 .address .link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate-color)
+    color: var(--slate-color) padding: 24px 0;
 }
 
 /**
